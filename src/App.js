@@ -6,9 +6,6 @@ function App() {
     <div className="App">
       <header className="AppContainer">
         <img src={updatesfav} className="App-logo img-fluid" alt="logo" />
-        <a href="#" className="btn btn-primary shadow">
-          HEllo
-        </a>
       </header>
     </div>
   );
