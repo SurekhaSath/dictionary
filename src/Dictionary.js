@@ -14,8 +14,8 @@ export default function Dictionary() {
     setsearchword(event.target.value);
   }
   function dispalyresult(response) {
-    // console.log(response);
-    setresults(response);
+    console.log(response);
+    setresults(response.data.meanings[0].definition);
   }
 
   return (
