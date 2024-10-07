@@ -1,5 +1,6 @@
 import updatesfav from "./updatesfav.png";
 import Dictionary from "./Dictionary";
+
 import "./App.css";
 
 function App() {
