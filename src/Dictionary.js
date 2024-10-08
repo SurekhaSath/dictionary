@@ -15,6 +15,7 @@ export default function Dictionary() {
     setsearchword(event.target.value);
   }
   function dispalyresult(response) {
+    console.log(response);
     setresults({
       meanings: response.data.meanings,
     });
