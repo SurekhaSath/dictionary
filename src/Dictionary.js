@@ -3,8 +3,8 @@ import "./Dictionary.css";
 import axios from "axios";
 import Results from "./Results.js";
 import Photos from "./Photos.js";
-export default function Dictionary() {
-  let [serachword, setsearchword] = useState("");
+export default function Dictionary(props) {
+  let [serachword, setsearchword] = useState(props.defaultkeyword);
   let [results, setresults] = useState(null);
   let [photoresult, setphotoresult] = useState(null);
   function search(event) {

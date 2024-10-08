@@ -11,7 +11,7 @@ function App() {
           <img src={updatesfav} className="App-logo img-fluid" alt="logo" />
           <h1>Dictionary</h1>
         </header>
-        <Dictionary />
+        <Dictionary defaultkeyword="rain"/>
         <footer>
           This project is coded by
           <a href="https://surekhapalanisamy.netlify.app/">Surekha</a> and is
