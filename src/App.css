@@ -1,8 +1,9 @@
 .App {
-  text-align: center;
-  margin: 120px 0auto;
+  margin: 1% 20%;
 }
-
+.App h1 {
+  text-align: center;
+}
 .App-logo {
   max-width: 50px;
   display: block;
@@ -15,4 +16,7 @@
 
 .App-link {
   color: #61dafb;
+}
+body {
+  background-color: #f5f1fe;
 }

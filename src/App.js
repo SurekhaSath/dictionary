@@ -13,7 +13,11 @@ function App() {
         </header>
         <Dictionary />
         <footer>
-          This project is coded by Surekha and is open sourced in git hub
+          This project is coded by
+          <a href="https://surekhapalanisamy.netlify.app/">Surekha</a> and is
+          <a href="https://github.com/SurekhaSath/dictionary">
+            open sourced in git hub
+          </a>
         </footer>
       </div>
     </div>
