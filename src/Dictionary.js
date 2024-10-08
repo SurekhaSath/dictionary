@@ -4,9 +4,10 @@ import axios from "axios";
 import Results from "./Results.js";
 import Photos from "./Photos.js";
 export default function Dictionary(props) {
-  let [serachword, setsearchword] = useState(props.defaultkeyword);
+  let [serachword, setsearchword] = useState();
   let [results, setresults] = useState(null);
   let [photoresult, setphotoresult] = useState(null);
+
   function search(event) {
     event.preventDefault();
     let apiurl = `https://api.shecodes.io/dictionary/v1/define?word=${serachword}&key=b437574c1146da7t8a94bof1824f6cc0`;
@@ -18,6 +19,7 @@ export default function Dictionary(props) {
     console.log(response);
     setphotoresult({ photos: response.data.photos });
   }
+
   function handleserachwordchange(event) {
     setsearchword(event.target.value);
   }
